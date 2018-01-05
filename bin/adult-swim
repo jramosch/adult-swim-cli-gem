@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "adult_swim"
+
+AdultSwim::CLI.new.call
