@@ -1,5 +1,7 @@
-require "adult_swim/version"
+require "pry"
+require "nokogiri"
+require "open-uri"
 
-module AdultSwim
-  # Your code goes here...
-end
+require "adult_swim/version"
+require "adult_swim/cli"
+require "adult_swim/show"

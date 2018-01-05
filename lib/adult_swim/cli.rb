@@ -12,13 +12,14 @@ class AdultSwim::CLI
   end
 
   def list_shows
-    shows = AdultSwim::Show.all
+    adult_swim = AdultSwim::Show.new
+    shows = adult_swim.all
     shows.each.with_index(1) do |show, i|
       puts "#{i}. #{show.name}"
     end
   end
 
   def list_dates
-    dates = Adul
+    dates = AdultSwim::Date.all
   end
 end

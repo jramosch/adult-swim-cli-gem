@@ -1,0 +1,2 @@
+class AdultSwim::Date
+end
